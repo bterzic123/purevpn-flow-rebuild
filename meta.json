@@ -1,0 +1,20 @@
+{
+  "scope": "flow",
+  "today": { "text": "every install swipes the same four slides, then meets one paywall, \"Your First 7 days are on us!\"", "source": "audit_frames" },
+  "prices": { "yearly": "99,99 €/year", "monthly": "22,99 €/mo", "standard_yearly": "49,99 €/year", "standard_monthly": "12,99 €/mo", "trial": "7 days", "source": "PureVPN iOS paywall, EU storefront; App Store listing" },
+  "asks": [],
+  "paywall": { "headline": "Your First 7 days are on us!", "uses_answers": false },
+  "rebuild": "one question after the slides, \"What do you want PureVPN for?\", names the paywall headline and the three Max vs Standard rows it shows",
+  "flows": [
+    { "channel": "Meta", "headline": "Your shows, from anywhere.", "paywall_opens_on": "Max, 12 Months", "note": "streaming ad; Stream my shows from anywhere arrives ticked" },
+    { "channel": "Meta", "headline": "Browse without being followed.", "paywall_opens_on": "Max, 12 Months", "note": "privacy ad; Identity Protection row next to the price" },
+    { "channel": "Meta", "headline": "Land connected. No SIM swap.", "paywall_opens_on": "Max, 12 Months", "note": "travel ad; eSIM slide first, eSIM row next to the price" }
+  ],
+  "ideas": [
+    { "n": 1, "title": "Ask what they want PureVPN for, then answer it on the paywall", "screen": "Paywall", "outcome": "CR +15–20%" },
+    { "n": 2, "title": "Bring three rows of Compare all plans onto the paywall", "screen": "Paywall", "outcome": "CR +10–20%" },
+    { "n": 3, "title": "Put your KPMG audit and App Store rating next to the plans", "screen": "Paywall", "outcome": "CR +10–15%" },
+    { "n": 4, "title": "Let the wait set up what they picked", "screen": "Set-up", "outcome": "CR +10–15%" },
+    { "n": 5, "title": "Show both plans at once and spell out the 7 free days", "screen": "Paywall", "outcome": "CR +5–15%" }
+  ]
+}
